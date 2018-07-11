@@ -139,7 +139,7 @@ Spring Cloud is tool for building system using common pattern in Distributed Sys
 | Eureka | http://localhost:8761/|
 | Zuul - Currency Exchange & Exchange Services | http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/INR http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/10|
 | Zipkin | http://localhost:9411/zipkin/ |
-| Spring Cloud Bus Refresh | http://localhost:8080/bus/refresh |
+| Spring Cloud Bus Refresh | Post -> http://localhost:8080/actuator/bus-refresh |
 
 
 ### Other important commands
@@ -147,7 +147,7 @@ Spring Cloud is tool for building system using common pattern in Distributed Sys
 #### Rabbit MQ Commands
 ```
 cd ZipkinServer
-RABBIT_URI=amqp://localhost 
+set RABBIT_URI=amqp://localhost 
 java -jar zipkin-server-2.10.2-SNAPSHOT-exec.jar
 ```
 
@@ -167,6 +167,13 @@ git init
 git add -A
 git commit -m "first commit"
 ```
+
+#### Acutator Endpoints Enable
+```
+management.security.enabled=false
+management.endpoints.web.exposure.include=*
+```
+
 
 ## More Reading about Microservices
 - Design and Governance of Microservices
