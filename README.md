@@ -2,7 +2,7 @@
 
 ## Micro Service Multi Instances
 
-![Multi Instances Micro Services](https://raw.githubusercontent.com/SayantanChaudhuri/SpringBoot2MicroServices/Multi Instances Micro Services.png)
+![Multi Instances Micro Services](Multi%20Instances%20Micro%20Services.png)
 
 
 
