@@ -36,9 +36,6 @@
 ![Multi Instances Micro Services](Multi%20Instances%20Micro%20Services.png)
 
 
-### Project Structure
-![Project Architecture](Project%20Work%20Flow.PNG)
-
 ### [Spring Cloud](http://projects.spring.io/spring-cloud/)
 
 Spring Cloud is tool for building system using common pattern in Distributed System.
@@ -111,6 +108,9 @@ Spring Cloud is tool for building system using common pattern in Distributed Sys
 - Zipkin Server (Not part of Spring Cloud)
 - Rabbit MQ (Not part of Spring Cloud)
 
+
+### Project Structure
+![Project Architecture](Project%20Work%20Flow.PNG)
 
 
 ### Ports
